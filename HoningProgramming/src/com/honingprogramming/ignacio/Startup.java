@@ -12,12 +12,12 @@ public class Startup {
 		DogFactory dogFactory = new DogFactory();
 		CowFactory cowFactory = new CowFactory();
 		
-		Cat cat = (Cat) catFactory.getAnimal("Ct");
-		Cow cow = cowFactory.getAnimal("Cw");
-		Dog dog = (Dog) dogFactory.getAnimal("Dg");
+		Cat cat = catFactory.getAnimal("Cat");
+		Cow cow = cowFactory.getAnimal("Cow");
+		Dog dog = dogFactory.getAnimal("Dog");
 		
 		
-//		Animal cat = new Cat("Meau", 8);
+
 		cat.printDetails();
 //		
 //		Animal dog = new Dog("Guau", 9);
